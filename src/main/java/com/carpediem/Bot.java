@@ -8,7 +8,7 @@ package com.carpediem;
 public class Bot {
     public static void main(String[] args) throws Exception{
 
-        JDA jda = new JDABuilder("Njk0OTMyMjcwNDE4NjI0NjQz.Xo3ekw.NV7eC7wlB9ZaoZSgfjEbNiXGbKc").build();
+        JDA jda = new JDABuilder("BOT_TOKEN").build();
 
         jda.addEventListener(new Lottery());
         jda.addEventListener(new Caibank());
